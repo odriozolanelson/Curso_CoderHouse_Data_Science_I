@@ -33,3 +33,6 @@ Por último, se crean dos transformaciones: una función que clasifica las opera
 
 Estas transformaciones son descriptivas: ayudan a resumir los datos, pero no determinan por sí solas que una transacción sea sospechosa.
 
+## Entrega actual
+
+➡️ [Abrir Entregable 2: Ingesta y radiografía del dataset](./Entregable%202.ipynb)
