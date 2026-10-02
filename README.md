@@ -1,31 +1,28 @@
-# Análisis inicial del dataset SAML-D
+# Proyecto de Ciencia de Datos: SAML-D
 
-## Descripción del proyecto
-
-Este proyecto explora transacciones financieras ficticias relacionadas con el monitoreo y la prevención del lavado de activos. El objetivo general es analizar las características de las operaciones y, en etapas posteriores, estudiar si pueden utilizarse para priorizar transacciones marcadas como sospechosas por el dataset.
-
-Los datos son ficticios: no representan operaciones de clientes reales y los resultados no deben interpretarse como detecciones de casos reales.
+**Alumno:** Nelson Odriozola  
+**Tema:** análisis exploratorio de transacciones para la prevención del lavado de activos.
 
 ## Entregables
 
 - `Entregable 1.docx`: selección y validación del dataset, contexto del problema y variables principales.
-- `Entregable 2.ipynb`: ingesta de datos, revisión de dimensiones y tipos, diagnóstico de valores faltantes y funciones de transformación.
+- `Entregable 2.ipynb`: ingesta, revisión inicial de los datos, diagnóstico de valores faltantes y aplicación de funciones de transformación.
 
 ## Dataset
 
-- Fuente original: [Synthetic transaction monitoring dataset for AML (SAML-D) en Kaggle](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
-- Archivo utilizado: `SAML-D.csv`
-- Tamaño revisado: 9.504.852 filas y 12 columnas.
-- El CSV ocupa aproximadamente 996 MB y no se incluye en este repositorio.
+Se utiliza el dataset sintético **SAML-D**, que contiene **9.504.852 filas y 12 columnas**. 
+Los datos son ficticios: no representan operaciones de clientes reales y los resultados no deben interpretarse como detecciones de casos reales.
 
-Para reproducir el notebook, el CSV se descarga desde [este enlace de Google Drive](https://drive.google.com/file/d/1uRs7ojeWVmAB0U5fgeUNBCAh4jqLl8O0/view?usp=sharing). También se puede obtener desde la fuente original de Kaggle.
+- [Fuente original en Kaggle](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
+- [Archivo SAML-D.csv en Google Drive](https://drive.google.com/file/d/1uRs7ojeWVmAB0U5fgeUNBCAh4jqLl8O0/view?usp=sharing)
 
-## Requisitos y ejecución
+El CSV ocupa aproximadamente **996 MB** y no está incluido en el repositorio por su tamaño. El notebook lo descarga desde Google Drive (https://drive.google.com/file/d/1uRs7ojeWVmAB0U5fgeUNBCAh4jqLl8O0/view?usp=sharing). También se puede obtener desde la fuente original de Kaggle.
 
-El notebook utiliza Python, JupyterLab, `pandas` y `gdown`. La primera celda instala las bibliotecas y otra celda descarga el CSV desde Google Drive. Se necesita conexión a Internet, espacio libre suficiente para el archivo y memoria disponible para procesar el dataset completo.
+## Trabajo realizado en la preentrega 2
 
-Abrir `Entregable 2.ipynb` en JupyterLab y ejecutar las celdas en orden, desde el comienzo. El procesamiento de millones de filas puede demorar.
+Se instala las bibliotecas y se descarga el CSV desde Google Drive. Se carga el dataset SAML-D y realicé una revisión inicial de su estructura: cantidad de filas y columnas, tipos de datos, estadísticos descriptivos y valores faltantes. También analicé algunas características de las variables, como el hecho de que las cuentas son identificadores y que Is_laundering contiene etiquetas binarias asignadas por el dataset sintético.
 
-## Alcance de las transformaciones
+Luego creé dos transformaciones: una función que clasifica las operaciones según la ubicación bancaria y las monedas de envío y recepción, y una función lambda que agrupa los montos en categorías baja, media y alta utilizando rangos definidos para esta exploración.
 
-El notebook agrega una clasificación descriptiva del corredor según la ubicación bancaria y las monedas de envío y recepción. También crea categorías de monto mediante rangos definidos para esta exploración. Estas reglas sirven para describir y explorar los datos; no determinan por sí solas que una transacción sea ilícita.
+Esta entrega es exploratoria: las categorías creadas ayudan a resumir los datos, pero no determinan por sí solas que una transacción sea sospechosa ni representan detecciones de casos reales.
+
