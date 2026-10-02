@@ -17,6 +17,12 @@ Se utiliza el dataset sintético **SAML-D**, que contiene **9.504.852 filas y 12
 
 El CSV ocupa aproximadamente **996 MB** y no está incluido en el repositorio debido a su tamaño. El notebook descarga el archivo desde Google Drive.
 
+##Trabajo realizado en la preentrega 1
+
+Se eligió el tema de finanzas y prevención del lavado de activos. La pregunta inicial del proyecto es si se puede predecir si una transacción será etiquetada como sospechosa a partir de su monto, tipo de pago, monedas, ubicación de las entidades financieras y momento de realización.
+
+Por tratarse de una pregunta con dos posibles etiquetas —sospechosa o no sospechosa—, el problema se plantea como uno de clasificación binaria supervisada. El objetivo es explorar si un modelo podría ayudar a priorizar transacciones para su posterior análisis, no reemplazar la revisión de especialistas.
+
 ## Trabajo realizado en la preentrega 2
 
 En el notebook se instalan las bibliotecas necesarias y se descarga y carga el CSV. Luego se revisan las dimensiones del dataset, los tipos de datos, los estadísticos descriptivos y los valores faltantes.
