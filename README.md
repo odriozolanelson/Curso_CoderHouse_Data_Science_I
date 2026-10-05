@@ -41,6 +41,6 @@ Se profundizó la inspección de la columna `Amount` mediante el criterio IQR pa
 
 Las columnas `Date` y `Time` se convirtieron a tipos temporales; la conversión no produjo valores inválidos. Además, se analizaron la cantidad de cuentas distintas y la frecuencia con que aparecen como emisoras o receptoras.
 
-Se aplicaron filtros booleanos para explorar transacciones etiquetadas como sospechosas, operaciones internacionales de monto alto y montos por encima del límite superior del IQR. `Laundering_type` se excluyó de la vista preliminar de predictores porque podría contener información relacionada con la etiqueta `Is_laundering`.
+Se aplicaron filtros booleanos para explorar operaciones internacionales de monto alto y montos por encima del límite superior del IQR. `Laundering_type` se excluyó de la vista preliminar de predictores porque podría contener información relacionada con la etiqueta `Is_laundering`.
 
 Los posibles valores atípicos son inusuales según un criterio estadístico, pero no indican por sí solos que una transacción sea sospechosa.
