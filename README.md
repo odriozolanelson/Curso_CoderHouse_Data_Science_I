@@ -44,3 +44,5 @@ Las columnas `Date` y `Time` se convirtieron a tipos temporales; la conversión 
 Se aplicaron filtros booleanos para explorar operaciones internacionales de monto alto y montos por encima del límite superior del IQR. `Laundering_type` se excluyó de la vista preliminar de predictores porque podría contener información relacionada con la etiqueta `Is_laundering`.
 
 Los posibles valores atípicos son inusuales según un criterio estadístico, pero no indican por sí solos que una transacción sea sospechosa.
+
+➡️ [Entregable 3 (PDF)](https://github.com/odriozolanelson/Curso_CoderHouse_Data_Science_I/blob/main/Entregable%203.pdf)
