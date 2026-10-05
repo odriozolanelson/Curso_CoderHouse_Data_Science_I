@@ -33,6 +33,14 @@ Por último, se crean dos transformaciones: una función que clasifica las opera
 
 Estas transformaciones son descriptivas: ayudan a resumir los datos, pero no determinan por sí solas que una transacción sea sospechosa.
 
-## Entrega actual
-
 ➡️ [Abrir Entregable 2: Ingesta y radiografía del dataset](./Entregable%202.ipynb)
+
+## Trabajo realizado en la preentrega 3
+
+Se profundizó la inspección de la columna `Amount` mediante el criterio IQR para identificar y contar posibles valores atípicos. También se midió la memoria estimada por columna y se comparó luego de convertir columnas de baja cardinalidad a tipos más eficientes.
+
+Las columnas `Date` y `Time` se convirtieron a tipos temporales; la conversión no produjo valores inválidos. Además, se analizaron la cantidad de cuentas distintas y la frecuencia con que aparecen como emisoras o receptoras.
+
+Se aplicaron filtros booleanos para explorar transacciones etiquetadas como sospechosas, operaciones internacionales de monto alto y montos por encima del límite superior del IQR. `Laundering_type` se excluyó de la vista preliminar de predictores porque podría contener información relacionada con la etiqueta `Is_laundering`.
+
+Los posibles valores atípicos son inusuales según un criterio estadístico, pero no indican por sí solos que una transacción sea sospechosa.
