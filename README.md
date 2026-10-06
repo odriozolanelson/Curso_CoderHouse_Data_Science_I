@@ -45,4 +45,4 @@ Se aplicaron filtros booleanos para explorar operaciones internacionales de mont
 
 Los posibles valores atípicos son inusuales según un criterio estadístico, pero no indican por sí solos que una transacción sea sospechosa.
 
-➡️ [Entregable 3 (PDF)](https://github.com/odriozolanelson/Curso_CoderHouse_Data_Science_I/blob/main/Entregable%203.pdf)
+➡️ [Entregable 3 (PDF)](https://github.com/odriozolanelson/Curso_CoderHouse_Data_Science_I/blob/main/Entregable%203_Odriozola_Nelson_Checkpoint1.pdf)
