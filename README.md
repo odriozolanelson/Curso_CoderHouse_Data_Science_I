@@ -47,7 +47,7 @@ Se aplicaron filtros booleanos para explorar operaciones internacionales de mont
 
 Los posibles valores atípicos son inusuales según un criterio estadístico, pero no indican por sí solos que una transacción sea sospechosa.
 
-➡️ [Entregable 3 (PDF)](https://github.com/odriozolanelson/Curso_CoderHouse_Data_Science_I/blob/main/Entregable%203_Odriozola_Nelson_Checkpoint1.pdf)
+➡️ [Entregable 3 (PDF)](https://github.com/odriozolanelson/Curso_CoderHouse_Data_Science_I/blob/main/Entregable%203_Odriozola_Nelson.pdf)
 
 ## Trabajo realizado en la preentrega 4
 
@@ -57,4 +57,4 @@ En los gráficos se observa una fuerte concentración de transacciones en montos
 
 Los gráficos y sus interpretaciones son descriptivos. Como SAML-D es sintético, los patrones observados no representan operaciones reales ni detecciones de lavado de activos.
 
-➡️ Entregable 4 (PDF)
+➡️ [Entregable 4 (PDF)] (https://github.com/odriozolanelson/Curso_CoderHouse_Data_Science_I/blob/main/Entregable%204_Odriozola_Nelson.pdf)
