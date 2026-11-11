@@ -57,4 +57,4 @@ En los gráficos se observa una fuerte concentración de transacciones en montos
 
 Los gráficos y sus interpretaciones son descriptivos. Como SAML-D es sintético, los patrones observados no representan operaciones reales ni detecciones de lavado de activos.
 
-➡️ [Entregable 4 (PDF)] (https://github.com/odriozolanelson/Curso_CoderHouse_Data_Science_I/blob/main/Entregable%204_Odriozola_Nelson.pdf)
+➡️ [Entregable 4 (PDF)](https://github.com/odriozolanelson/Curso_CoderHouse_Data_Science_I/blob/main/Entregable%204_Odriozola_Nelson.pdf)
