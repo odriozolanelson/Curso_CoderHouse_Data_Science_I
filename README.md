@@ -7,6 +7,8 @@
 
 - `Entregable 1.docx`: selección y validación del dataset, contexto del problema y variables principales.
 - `Entregable 2.ipynb`: ingesta, revisión inicial de los datos, diagnóstico de valores faltantes y aplicación de funciones de transformación.
+- `Entregable 3.pdf`: análisis de valores atípicos en Amount, uso de memoria y tipos de datos, revisión de cuentas y aplicación de filtros.
+- `Entregable 4.pdf`: análisis exploratorio visual con histogramas, gráficos de barras, boxplots y un mapa de correlación, acompañados de sus interpretaciones.
 
 ## Dataset
 
@@ -46,3 +48,13 @@ Se aplicaron filtros booleanos para explorar operaciones internacionales de mont
 Los posibles valores atípicos son inusuales según un criterio estadístico, pero no indican por sí solos que una transacción sea sospechosa.
 
 ➡️ [Entregable 3 (PDF)](https://github.com/odriozolanelson/Curso_CoderHouse_Data_Science_I/blob/main/Entregable%203_Odriozola_Nelson_Checkpoint1.pdf)
+
+## Trabajo realizado en la preentrega 4
+
+Se realizó un análisis exploratorio visual del conjunto de datos SAML-D utilizando gráficos de Seaborn y Matplotlib. Se incluyeron histogramas de Amount con el rango completo y hasta el percentil 99, un gráfico de transacciones por tipo de pago, boxplots de montos según el tipo de pago, una comparación entre tipo de pago y ubicación bancaria, y un mapa de correlación entre el monto, la ubicación y la moneda.
+
+En los gráficos se observa una fuerte concentración de transacciones en montos bajos y una cola de valores altos. La vista hasta el percentil 99 permite apreciar mejor la distribución central, mientras que los boxplots muestran diferencias entre los montos según el tipo de pago. También se observa que las operaciones Cross-border aparecen asociadas a ubicaciones bancarias distintas. En el mapa de correlación, la asociación entre ubicación distinta y moneda distinta es de 0,91; la correlación del monto con esos indicadores es de 0,02.
+
+Los gráficos y sus interpretaciones son descriptivos. Como SAML-D es sintético, los patrones observados no representan operaciones reales ni detecciones de lavado de activos.
+
+➡️ Entregable 4 (PDF)
